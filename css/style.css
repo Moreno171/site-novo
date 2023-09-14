@@ -196,7 +196,7 @@ select option {
     width: 50vw;
     height: 50vh;
     font-size: 3.5;
-    /* background-color: #dd2c2c; */
+
     transform: translate(2vh, 10vh);
     
 }
@@ -216,25 +216,29 @@ select option {
 .historia-container{
     display: flex;
     align-items: center;
-    height: 190vh; 
+    height: 130vh; 
     width: 100vw;
     flex-direction: column;
     gap: 80px;
    
     
+   
+    
 }
 .text-historia{
+   
     color: #4D97DB;
     font-size: 6.5rem;
     font-family: 'Oswald', sans-serif;;
     margin-top: 50vh;
 }
 .cardsRelatos{
+top: 25vw;
     width: 70vw;
-    height: 210vh;
-    display: flex;
+    height: 250vh;
+    display: grid;
     flex-direction: column;
-    gap: 150px;
+    gap: 50px;
     align-items: center;
     justify-content: center;
  
@@ -251,14 +255,16 @@ select option {
     justify-content: center;
     text-align: center;
     padding: 40px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .cardsInferiores{
     display: flex;
     flex-direction: row;
     gap: 150px;
+    padding-bottom: 50vw;
 }
 .cardsSuperiores{
+
     display: flex;
     flex-direction: row;
     gap: 150px;
@@ -334,12 +340,15 @@ select option {
     color: #4D97DB;
     font-size: 6.5rem;
     font-family: 'Oswald', sans-serif;;
+    height: 20vw;
+    padding-top: 20vh;
+   
 
 }
 .sobre-container{
     display: flex;
     align-items: center;
-    height: 50vw; 
+    height: 150vw; 
     width: 100vw;
     flex-direction: column;
     gap: 60px;
@@ -379,7 +388,7 @@ select option {
 
 .div_p{
     display: grid;
-    margin-top: -58vh;
+   margin-top: -80vh;
     color: #000000;
     font-family: 'Oswald', sans-serif;
 }
