@@ -63,7 +63,7 @@ footer {
 
 .resto{
     background-image: url(../img//resto2.png);
-    height: 250vh;
+    height: 290vh;
     width: 100%;
     display: flex;
     background-repeat: no-repeat;
@@ -348,10 +348,11 @@ top: 25vw;
 .sobre-container{
     display: flex;
     align-items: center;
-    height: 150vw; 
+    height: 40vw; 
     width: 100vw;
     flex-direction: column;
     gap: 60px;
+   
 }
     .text-final{
     font-size: 3rem;
@@ -361,7 +362,8 @@ top: 25vw;
     opacity: 62%;
     display: flex;
     width: 50vw;
-    height: 80%;
+    height: 15vw;
+ 
 }
 .text-f2{
     font-size: 3rem;
@@ -388,9 +390,10 @@ top: 25vw;
 
 .div_p{
     display: grid;
-   margin-top: -80vh;
+   margin-top: -11vh;
     color: #000000;
     font-family: 'Oswald', sans-serif;
+
 }
 
 .text34{
@@ -399,5 +402,21 @@ top: 25vw;
     font-weight: 400;
     color: #000000;
     opacity: 0.62;
+}
+footer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+.contatos{
+    margin-top: 50vh;
+    height: 20vh;
+    width: 150vh;
+    border-radius: 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #575757;
+    background-color: #B3D3E4;
 }
 
