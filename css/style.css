@@ -24,31 +24,34 @@ main {
     flex-direction: column;
     align-items: center;
 }
+footer {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    grid-area: content;
+    place-self: end center;
+    place-content: center;
+    border-top: 2px solid #fff;
+
+}
 
 section {
     height: 100vw;
 }
 
-footer {
-    width: 100%;
-    grid-area: content;
-    place-self: end center;
-    display: grid;
-    place-content: center;
-    height: 50px;
-    border-top: 2px solid #fff;
-}
 
-.container-text{
-    
+
+.container-text {
+
     height: 40vh;
     display: flex;
     flex-direction: row;
     align-items: center;
 
-    
+
 }
-.home{
+
+.home {
     background-image: url(/img/home2.png);
     width: 100vw;
     height: 135vh;
@@ -61,14 +64,13 @@ footer {
     gap: 170px;
 }
 
-.resto{
+.resto {
     background-image: url(../img//resto2.png);
-    height: 290vh;
+    height: 280vh;
     width: 100%;
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
-
     flex-direction: column;
 }
 
@@ -79,22 +81,31 @@ footer {
     height: -10vw;
     width: 80vw;
 
-        
+
 }
-.BotaoHemocentro{
+
+.BotaoHemocentro {
+    background-color: #fff;
     height: 90px;
     width: 9vw;
-    border-radius: 10%;
+    border-radius: 12px;
+    outline: 0;
     border-color: white;
-       
+    display: flex;
+    
 }
-.textBotao{
-    color: #3956BD;
-    font-weight: 400;
-    font-family: 'Oswald', sans-serif;
+.bottom{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    height: 60px;
+    width: 9vw;
+    font-size: 1.7rem;
+    color: #2E4FC0;
+}
 
 
-}
 select {
     background: none;
     appearance: none;
@@ -111,45 +122,49 @@ select option {
     background-color: black;
 }
 
-.text{
+.text {
     font-family: 'Oswald', sans-serif;
     font-size: 5rem;
     font-weight: 200;
 
 
 }
-.textSuperior{
+
+.textSuperior {
     width: 1130px;
     display: flex;
     flex-direction: row;
     float: right;
     justify-content: center;
     gap: 20px;
-   
-}
-.formatacaoText{
-  display: flex;
-  flex-direction: column;
-  width: 70vh;
-  height: 50vh;
-  /* justify-content: center; */
-
 
 }
 
-.text1{
+.formatacaoText {
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    height: 50vh;
+    /* justify-content: center; */
+
+
+}
+
+.text1 {
     font-size: 5rem;
- 
-  
-    
-  
+
+
+
+
 }
-.text2{
+
+.text2 {
     font-size: 3.5rem;
     font-weight: 200;
 
 }
-.formatacaoBaixeOApp{
+
+.formatacaoBaixeOApp {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -158,21 +173,23 @@ select option {
     height: 100px;
     gap: 80px;
 
-    
+
 }
-.image_celular{
+
+.image_celular {
     flex-direction: row;
-    width: 170h; 
-    height: 1500px; 
-    position: relative; 
+    width: 170h;
+    height: 1500px;
+    position: relative;
     float: right;
 }
-.divcelular{
+
+.divcelular {
     width: 120vh;
     height: 70vh;
-    }
+}
 
-.adesivos{
+.adesivos {
     gap: 60px;
     width: 110%;
     display: flex;
@@ -181,59 +198,65 @@ select option {
     justify-content: flex-end;
     height: 100vh;
     transform: translate(0vh, 10vh);
-    
+
 }
-.container-apk{
+
+.container-apk {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20vw; 
+    height: 20vw;
     width: 50vw;
-    
+
 }
-.text-doacao{
+
+.text-doacao {
     display: flex;
     width: 50vw;
     height: 50vh;
     font-size: 3.5;
 
     transform: translate(2vh, 10vh);
-    
+
 }
-.paragrafoTextDoacao{
-   font-size: 3.5rem;
-   font-family: 'Oswald', sans-serif;
-   color: #000000;
-   width: 100vw;
-   height: 50vh;
-   text-align: center;
-   padding-top: 50vh;
-   margin-left: 5vh;
-   margin-right: 10vh;
+
+.paragrafoTextDoacao {
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    padding-top: 50vh;
+    margin-left: 5vh;
+    margin-right: 10vh;
 }
 
 
-.historia-container{
+.historia-container {
     display: flex;
     align-items: center;
-    height: 130vh; 
+    height: 130vh;
     width: 100vw;
     flex-direction: column;
     gap: 80px;
-   
-    
-   
-    
+
+
+
+
 }
-.text-historia{
-   
+
+.text-historia {
+
     color: #4D97DB;
     font-size: 6.5rem;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
+    ;
     margin-top: 50vh;
 }
-.cardsRelatos{
-top: 25vw;
+
+.cardsRelatos {
+    top: 25vw;
     width: 70vw;
     height: 250vh;
     display: grid;
@@ -241,10 +264,11 @@ top: 25vw;
     gap: 50px;
     align-items: center;
     justify-content: center;
- 
+
 }
-.card{
-    background-color:#fff;
+
+.card {
+    background-color: #fff;
     height: 350px;
     width: 590px;
     border-radius: 5%;
@@ -257,13 +281,15 @@ top: 25vw;
     padding: 40px;
     padding-top: 80px;
 }
-.cardsInferiores{
+
+.cardsInferiores {
     display: flex;
     flex-direction: row;
     gap: 150px;
     padding-bottom: 50vw;
 }
-.cardsSuperiores{
+
+.cardsSuperiores {
 
     display: flex;
     flex-direction: row;
@@ -271,103 +297,119 @@ top: 25vw;
     align-items: center;
     justify-content: center;
 }
-.text-card1{
+
+.text-card1 {
     font-size: 1.5rem;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
+    ;
     text-align: center;
     color: #000000;
     opacity: 62%;
-    
+
 }
-.text-card2{
+
+.text-card2 {
     font-size: 1.5rem;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #000000;
     opacity: 62%;
     gap: 20px;
-  
 
-    
+
+
 }
-.text-card3{
+
+.text-card3 {
     font-size: 1.5rem;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
+    ;
     text-align: center;
     color: #000000;
     opacity: 62%;
-    
+
 }
-.text-card4{
+
+.text-card4 {
     font-size: 1.5rem;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
+    ;
     text-align: center;
     color: #000000;
     opacity: 62%;
-    
-}
-.text-nome1{
-    color: #000000;
-}
-.text-nome2{
-    color: #000000;
-}
-.text-nome3{
-    color: #000000;
-}
-.text-nome4{
-    color: #000000;
-}
-.profile{
-    display:flex ; 
-    flex-direction: row; 
-    align-items: center; 
-    justify-content: center; 
-    gap: 20px; 
-    padding:  10%;
-}
-
-.profile2{
-    display:flex ; 
-    flex-direction: row; 
-    align-items: center; 
-    justify-content: center; 
-    gap: 30px; 
-    padding:  -2%;
 
 }
-.text-sobre{
+
+.text-nome1 {
+    color: #000000;
+}
+
+.text-nome2 {
+    color: #000000;
+}
+
+.text-nome3 {
+    color: #000000;
+}
+
+.text-nome4 {
+    color: #000000;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10%;
+}
+
+.profile2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: -2%;
+
+}
+
+.text-sobre {
     color: #4D97DB;
     font-size: 6.5rem;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
     height: 20vw;
     padding-top: 20vh;
-   
+
 
 }
-.sobre-container{
+
+.sobre-container {
     display: flex;
     align-items: center;
-    height: 40vw; 
+    height: 40vw;
     width: 100vw;
     flex-direction: column;
     gap: 60px;
-   
+
 }
-    .text-final{
+
+.text-final {
     font-size: 3rem;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #000000;
     opacity: 62%;
     display: flex;
     width: 50vw;
     height: 15vw;
- 
+
 }
-.text-f2{
+
+.text-f2 {
     font-size: 3rem;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #dd2c2c;
     opacity: 62%;
@@ -376,7 +418,7 @@ top: 25vw;
     height: 180%;
 }
 
-.text15{
+.text15 {
     color: #7681EA;
     width: 20vh;
     display: flex;
@@ -388,35 +430,93 @@ top: 25vw;
 
 }
 
-.div_p{
+.div_p {
     display: grid;
-   margin-top: -11vh;
+    margin-top: -11vh;
     color: #000000;
     font-family: 'Oswald', sans-serif;
 
 }
 
-.text34{
+.text34 {
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
     font-weight: 400;
     color: #000000;
     opacity: 0.62;
 }
-footer{
-    height: 100vh;
-    width: 100%;
-    display: flex;
 
-}
-.contatos{
+
+
+.contatos {
     margin-top: 50vh;
     height: 20vh;
     width: 150vh;
-    border-radius: 5%;
+    border-radius: 12px;
     border-width: 2px;
     border-style: solid;
-    border-color: #575757;
     background-color: #B3D3E4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
 }
 
+.redes {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10%;
+    align-items: center;
+    margin-right: 15%;
+
+
+
+}
+
+.copy {
+    color: #2E4FC0;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Abel', sans-serif;
+}
+
+.telefone-email {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Abel', sans-serif;
+
+}
+
+.alignContatos {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 20px;
+}
+
+.imgContato {
+    height: 30px;
+    width: 30px;
+}
+
+.imgRedeSocial {
+    height: 50px;
+    width: 50px;
+}
+
+.contato__item__text {
+    color: #2E4FC0;
+}
