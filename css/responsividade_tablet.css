@@ -1,0 +1,16 @@
+@media(max-width:980px){
+
+}
+.home{
+    
+        overflow: auto;
+        height: auto;
+        width: 450px;
+        justify-content: space-between;
+        gap: 35px;
+        animation-name: animation;
+        animation-duration: 3s;
+    
+}
+
+
